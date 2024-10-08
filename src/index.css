@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (max-width: 450px) {
+  table {
+    width: 100%; /* Ajusta la tabla al 100% del contenedor */
+    font-size: 0.7rem; /* Reduce el tamaño de la fuente para que se ajuste mejor */
+  }
+
+  th,
+  td {
+    padding: 0.5rem; /* Ajusta el padding para un mejor espaciado en pantallas pequeñas */
+  }
+}
+
+@media screen and (max-width: 380px) {
+  table {
+    width: 100%; /* Ajusta la tabla al 100% del contenedor */
+    font-size: 0.5rem; /* Reduce el tamaño de la fuente para que se ajuste mejor */
+  }
+
+  th,
+  td {
+    padding: 0.5rem; /* Ajusta el padding para un mejor espaciado en pantallas pequeñas */
+  }
+}
+@media screen and (max-width: 300px) {
+  table {
+    width: 100%; /* Ajusta la tabla al 100% del contenedor */
+    font-size: 0.3rem; /* Reduce el tamaño de la fuente para que se ajuste mejor */
+  }
+
+  th,
+  td {
+    padding: 0.5rem; /* Ajusta el padding para un mejor espaciado en pantallas pequeñas */
+  }
+}

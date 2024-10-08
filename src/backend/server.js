@@ -3,7 +3,7 @@ import mysql from "mysql2";
 import cors from "cors";
 import dotenv from "dotenv";
 
-const port = process.env.PORT || 10000;
+const port = 3000;
 
 dotenv.config();
 
